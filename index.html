@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    
+    <div class="container">
+        <h1>Calculator</h1>
+    <br>
+        <div class="calculator"> 
+            <form action="" class="calculator" id="calculator">
+                <div class="select-length">
+                    <h2>Length</h2>
+                <select name="length" id="selectLength">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                    <option value="20">20</option>
+                    <option value="22">22</option>
+                    <option value="24">24</option>
+                    <option value="26">26</option>
+                    <option value="28">28</option>
+                    <option value="30">30</option>
+                </select>
+                </div>
+                
+                <div class="select-width">
+                    <h2>Width</h2>
+                <select name="width" id="selectWidth">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                    <option value="20">20</option>
+                    <option value="22">22</option>
+                    <option value="24">24</option>
+                    <option value="26">26</option>
+                    <option value="28">28</option>
+                    <option value="30">30</option>
+                </select>
+                </div><br>
+                <button type="submit" id="btn">Calculate</button>
+                
+            </form>
+        </div>
+    </div>
+    <div class="container hidden" id="popup">
+        
+        <div class="modal">
+            <p id="result"></p>
+            <a href="" id="close-popup">X</a>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

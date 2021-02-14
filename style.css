@@ -1,0 +1,58 @@
+html {
+    font-family: poppins;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.select-height, .select-width{
+    padding: 10px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    width: 200px;
+    height: 100px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px;
+
+    background-color: #eeeeee;
+    font-size: 1.4rem;
+}
+#close-popup {
+    
+    position: absolute;
+    display: inherit;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    
+    color: #fff;
+    background-color: red;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    text-decoration: none;
+}
